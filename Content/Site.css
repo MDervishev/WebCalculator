@@ -1,0 +1,45 @@
+﻿.master {
+    background-color: Green;
+    color: White;
+    font-family: Comic Sans MS;
+    font-size: x-large;
+    font-style: italic;
+}
+
+.centre {
+    text-align: center;
+    border: 1px solid #ffff;
+}
+
+.button {
+    background-color: Gray;
+    border: none;
+    color: White;
+    width: 100px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    font-size: larger;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+    .button:hover {
+        background-color: Navy;
+        filter: drop-shadow(2px 2px 3px #19B092);
+    }
+
+.text {
+    width: 330px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+

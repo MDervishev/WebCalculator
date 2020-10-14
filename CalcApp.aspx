@@ -1,0 +1,51 @@
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="CalcApp.aspx.cs" Inherits="MyCalculator.CalcApp" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
+  
+        <style>
+    @import url('/Content/Site.css');
+      </style>
+    <div class="centre">
+        
+        <asp:TextBox ID="TextBox1" runat="server" CssClass="text" Type="text" OnTextChanged="TextBox1_TextChanged" ></asp:TextBox><br/>
+        <div>
+            <asp:Button ID="Button1" runat="server" Text="1" CssClass="button" 
+                onclick="Button1_Click"/>
+            <asp:Button ID="Button2" runat="server" Text="2" CssClass="button" 
+                onclick="Button2_Click"/>
+            <asp:Button ID="Button3" runat="server" Text="3" CssClass="button" 
+                onclick="Button3_Click"/>
+            <asp:Button ID="Division" runat="server" Text="/" CssClass="button" 
+                onclick="Button4_Click"/><br />
+            <asp:Button ID="Button5" runat="server" Text="4" CssClass="button" 
+                onclick="Button5_Click"/>
+            <asp:Button ID="Button6" runat="server" Text="5" CssClass="button" 
+                onclick="Button6_Click"/>
+            <asp:Button ID="Button7" runat="server" Text="6" CssClass="button" 
+                onclick="Button7_Click"/>
+            <asp:Button ID="Multiply" runat="server" Text="*" CssClass="button" 
+                onclick="Button8_Click"/><br />
+            <asp:Button ID="Button9" runat="server" Text="7" CssClass="button" 
+                onclick="Button9_Click"/>
+            <asp:Button ID="Button10" runat="server" Text="8" CssClass="button" 
+                onclick="Button10_Click"/>
+            <asp:Button ID="Button11" runat="server" Text="9" CssClass="button" 
+                onclick="Button11_Click"/>
+            <asp:Button ID="Sum" runat="server" Text="+" CssClass="button" 
+                onclick="Button12_Click"/><br />
+            <asp:Button ID="Button13" runat="server" Text="C.E." CssClass="button" 
+                onclick="Button13_Click"/>
+            <asp:Button ID="Button14" runat="server" Text="0" CssClass="button" 
+                onclick="Button14_Click"/>
+            <asp:Button ID="Button15" runat="server" Text="." CssClass="button" 
+                onclick="Button15_Click"/>
+            <asp:Button ID="Substraction" runat="server" Text="-" CssClass="button" 
+                onclick="Button16_Click"/> 
+            
+                
+        </div>
+        <asp:Button ID="Button17" runat="server" Text="Equal To" CssClass="button" 
+                onclick="Button17_Click" Width="217px"/>
+      </div>
+
+    
+</asp:Content>
