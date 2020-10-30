@@ -5,41 +5,44 @@
     @import url('/Content/Site.css');
       </style>
     <div class="centre">
+        <asp:Label ID="labelCurrentOperation" runat="server" Text="" ForeColor="ControlDark" ></asp:Label>
+    </div>
+    <div class="centre">
         
-        <asp:TextBox ID="TextBox1" runat="server" CssClass="text" Type="text" OnTextChanged="TextBox1_TextChanged" ></asp:TextBox><br/>
+        <asp:TextBox ID="TextBox1" runat="server" CssClass="text" Type="text" Text="0"  OnTextChanged="TextBox1_TextChanged" ></asp:TextBox><br/>
         <div>
             <asp:Button ID="Button1" runat="server" Text="1" CssClass="button" 
-                onclick="Button1_Click"/>
+                onclick="Button_click"/>
             <asp:Button ID="Button2" runat="server" Text="2" CssClass="button" 
-                onclick="Button2_Click"/>
+                onclick="Button_click"/>
             <asp:Button ID="Button3" runat="server" Text="3" CssClass="button" 
-                onclick="Button3_Click"/>
+                onclick="Button_click"/>
             <asp:Button ID="Division" runat="server" Text="/" CssClass="button" 
-                onclick="Button4_Click"/><br />
+                onclick="Operator_click"/><br />
             <asp:Button ID="Button5" runat="server" Text="4" CssClass="button" 
-                onclick="Button5_Click"/>
+                onclick="Button_click"/>
             <asp:Button ID="Button6" runat="server" Text="5" CssClass="button" 
-                onclick="Button6_Click"/>
+                onclick="Button_click"/>
             <asp:Button ID="Button7" runat="server" Text="6" CssClass="button" 
-                onclick="Button7_Click"/>
+                onclick="Button_click"/>
             <asp:Button ID="Multiply" runat="server" Text="*" CssClass="button" 
-                onclick="Button8_Click"/><br />
+                onclick="Operator_click"/><br />
             <asp:Button ID="Button9" runat="server" Text="7" CssClass="button" 
-                onclick="Button9_Click"/>
+                onclick="Button_click"/>
             <asp:Button ID="Button10" runat="server" Text="8" CssClass="button" 
-                onclick="Button10_Click"/>
+                onclick="Button_click"/>
             <asp:Button ID="Button11" runat="server" Text="9" CssClass="button" 
-                onclick="Button11_Click"/>
+                onclick="Button_click"/>
             <asp:Button ID="Sum" runat="server" Text="+" CssClass="button" 
-                onclick="Button12_Click"/><br />
+                onclick="Operator_click"/><br />
             <asp:Button ID="Button13" runat="server" Text="C.E." CssClass="button" 
                 onclick="Button13_Click"/>
             <asp:Button ID="Button14" runat="server" Text="0" CssClass="button" 
-                onclick="Button14_Click"/>
+                onclick="Button_click"/>
             <asp:Button ID="Button15" runat="server" Text="." CssClass="button" 
-                onclick="Button15_Click"/>
+                onclick="Button_click"/>
             <asp:Button ID="Substraction" runat="server" Text="-" CssClass="button" 
-                onclick="Button16_Click"/> 
+                onclick="Operator_click"/> 
             
                 
         </div>
